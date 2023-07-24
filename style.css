@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 720px;
+}
+
+.container {
+  text-align: center;
+}
+
+input, button {
+  margin: 12px 2px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 18px;
+}
+
+button {
+  background-color: rgb(2, 209, 2);
+  color: white;
+  cursor: pointer;
+}
+
+#red-btn {
+  background-color: red;
+}
+
+ul li {
+  font-size: 18px;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.clickable-text {
+  cursor: pointer;
+}
+
+.linha-atravessada {
+  text-decoration: line-through;
+}
+
+#list-ul li:hover {
+  cursor: pointer;
+}
